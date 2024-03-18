@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="siparisCell" id="ap6-gU-5jW">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="siparisCell" id="ap6-gU-5jW" customClass="SiparisCell" customModule="Siparis" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ap6-gU-5jW" id="dvV-A7-5y8">
@@ -58,6 +58,9 @@
                                                     </constraints>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" image="cart.badge.plus.fill" catalog="system"/>
+                                                    <connections>
+                                                        <action selector="siparisVer:" destination="ap6-gU-5jW" eventType="touchUpInside" id="fEF-mP-wOD"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -70,6 +73,11 @@
                                                 <constraint firstItem="rh4-20-ye4" firstAttribute="top" secondItem="dvV-A7-5y8" secondAttribute="top" constant="8" id="jon-z2-EAO"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="siparisFiyat" destination="lks-a5-2Jh" id="Vpa-GD-p1s"/>
+                                            <outlet property="siparisImage" destination="rh4-20-ye4" id="CDi-Do-zoC"/>
+                                            <outlet property="siparisName" destination="QeU-Xv-VDe" id="DnK-c1-4qY"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

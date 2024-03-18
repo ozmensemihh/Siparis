@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D5D9B6A2BA8D7DB00731BD1 /* SiparisCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D9B692BA8D7DB00731BD1 /* SiparisCell.swift */; };
+		4D5D9B6C2BA8DAFA00731BD1 /* Siparis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5D9B6B2BA8DAFA00731BD1 /* Siparis.swift */; };
 		4DFFF0A82BA3CF150055C222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFF0A72BA3CF150055C222 /* AppDelegate.swift */; };
 		4DFFF0AA2BA3CF150055C222 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFF0A92BA3CF150055C222 /* SceneDelegate.swift */; };
 		4DFFF0AC2BA3CF150055C222 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFF0AB2BA3CF150055C222 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D5D9B692BA8D7DB00731BD1 /* SiparisCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiparisCell.swift; sourceTree = "<group>"; };
+		4D5D9B6B2BA8DAFA00731BD1 /* Siparis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Siparis.swift; sourceTree = "<group>"; };
 		4DFFF0A42BA3CF140055C222 /* Siparis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Siparis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFFF0A72BA3CF150055C222 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DFFF0A92BA3CF150055C222 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				4DFFF0A72BA3CF150055C222 /* AppDelegate.swift */,
 				4DFFF0A92BA3CF150055C222 /* SceneDelegate.swift */,
 				4DFFF0AB2BA3CF150055C222 /* ViewController.swift */,
+				4D5D9B692BA8D7DB00731BD1 /* SiparisCell.swift */,
+				4D5D9B6B2BA8DAFA00731BD1 /* Siparis.swift */,
 				4DFFF0AD2BA3CF150055C222 /* Main.storyboard */,
 				4DFFF0B02BA3CF160055C222 /* Assets.xcassets */,
 				4DFFF0B22BA3CF160055C222 /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			files = (
 				4DFFF0AC2BA3CF150055C222 /* ViewController.swift in Sources */,
 				4DFFF0A82BA3CF150055C222 /* AppDelegate.swift in Sources */,
+				4D5D9B6C2BA8DAFA00731BD1 /* Siparis.swift in Sources */,
 				4DFFF0AA2BA3CF150055C222 /* SceneDelegate.swift in Sources */,
+				4D5D9B6A2BA8D7DB00731BD1 /* SiparisCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
