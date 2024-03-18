@@ -41,9 +41,8 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="200 TL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lks-a5-2Jh">
-                                                    <rect key="frame" x="128" y="68" width="55" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200 TL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lks-a5-2Jh">
+                                                    <rect key="frame" x="128" y="63" width="55" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" systemColor="systemPinkColor"/>
                                                     <nil key="highlightedColor"/>
@@ -66,8 +65,11 @@
                                             <constraints>
                                                 <constraint firstItem="rh4-20-ye4" firstAttribute="leading" secondItem="dvV-A7-5y8" secondAttribute="leading" constant="8" id="5qD-n9-8lD"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="282-dj-Av7" secondAttribute="trailing" constant="8" id="64M-FP-51V"/>
+                                                <constraint firstItem="lks-a5-2Jh" firstAttribute="bottom" secondItem="dvV-A7-5y8" secondAttribute="bottomMargin" constant="8" id="Anc-Mj-f3H"/>
+                                                <constraint firstAttribute="bottom" secondItem="lks-a5-2Jh" secondAttribute="bottom" constant="16" id="Cq1-Vd-uV9"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="282-dj-Av7" secondAttribute="bottom" constant="24" id="EjG-0N-2qW"/>
                                                 <constraint firstItem="rh4-20-ye4" firstAttribute="top" secondItem="dvV-A7-5y8" secondAttribute="top" constant="8" id="I14-wk-CK2"/>
+                                                <constraint firstItem="lks-a5-2Jh" firstAttribute="leading" secondItem="rh4-20-ye4" secondAttribute="trailing" constant="30" id="fhj-me-71G"/>
                                                 <constraint firstItem="rh4-20-ye4" firstAttribute="leading" secondItem="dvV-A7-5y8" secondAttribute="leading" constant="8" id="ijq-ds-rSe"/>
                                                 <constraint firstItem="282-dj-Av7" firstAttribute="top" secondItem="dvV-A7-5y8" secondAttribute="topMargin" constant="23" id="jFM-cc-Qj3"/>
                                                 <constraint firstItem="rh4-20-ye4" firstAttribute="top" secondItem="dvV-A7-5y8" secondAttribute="top" constant="8" id="jon-z2-EAO"/>
